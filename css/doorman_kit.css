@@ -4,6 +4,41 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
+
+/*Social icons*/
+.social_twitter {
+  color: #59ABE3;
+}
+
+.social_twitter:hover {
+  color: #01A2A6;
+}
+
+.social_facebook {
+  color: #446CB3;
+}
+
+.social_facebook:hover {
+  color: #01A2A6;
+}
+
+.social_tumblr {
+  color: #34495e;
+}
+
+.social_tumblr:hover {
+  color: #01A2A6;
+}
+
+
+.social_linkedin {
+  color: #2980b9;
+}
+
+.social_linkedin:hover {
+  color: #01A2A6;
+}
+
 p.text {
   line-height: 1.6em;
   font-size: 13px;
@@ -173,7 +208,7 @@ p.text {
 .rounded3 {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;  
+  border-radius: 3px;
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -468,13 +503,13 @@ img.desaturate_hover:hover {
 
 /* Custom for Doorman */
 	.logo {
-	        	color:white; 
-	        	font-weight:bold; 
+	        	color:white;
+	        	font-weight:bold;
 	        	font-size: 22px;
-	        	
+
         	}
         	.logo-dark {
-	        	color:#222; 
+	        	color:#222;
         	}
         	.logo-img {
 	        	background: #05BC9A;
@@ -487,7 +522,7 @@ img.desaturate_hover:hover {
 	        	border:none !important;
 	        	margin-top:-2px;
         	}
-        	
+
         	.cover-bg {
 				-webkit-background-size: cover !important;
 				-moz-background-size: cover !important;
@@ -519,7 +554,7 @@ img.desaturate_hover:hover {
         	.footer_links {
 	        	color: inherit !important;
         	}
-        	
+
         	@media (max-width:767px){
 	        	.logo {
 	        		margin-top: -6px;
@@ -528,7 +563,7 @@ img.desaturate_hover:hover {
 		        	margin:-20px 10px 0 0;
 	        	}
         	}
-        	
+
         	.red_bg {
 	        	background: #E03F3D !important;
 	        	color: white;
